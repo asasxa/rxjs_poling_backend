@@ -13,7 +13,11 @@ app.use(koaBody({
   multipart: true,
   json: true,
 }));
-app.use(cors());
+
+app.use(cors({
+  origin: ['https://asasxa.github.io'],
+}));
+
 app.use(router());
 
 const server = http.createServer(app.callback());
