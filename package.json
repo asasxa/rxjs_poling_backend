@@ -1,0 +1,29 @@
+{
+  "name": "rxjs_poling_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "author": "asasxa",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.0.0",
+    "@koa/cors": "^5.0.0",
+    "@koa/router": "^15.3.0",
+    "http-event-stream": "^0.2.0",
+    "koa": "^2.15.3",
+    "koa-body": "^4.2.0",
+    "koa-combine-routers": "^4.0.2",
+    "koa-router": "^12.0.1",
+    "uuid": "^8.3.2",
+    "ws": "^8.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
